@@ -23,13 +23,13 @@ body {
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
 }
 .card-body.main {
-    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    background: linear-gradient(145deg, #ffffff, #bab9b9);
 }
 .card-title {
     color: #1a1a1a;
 }
 .card-text {
-    color: #4a4a4a;
+    color: #2e2d2d;
 }
 .section-icon {
     font-size: 2rem;
@@ -66,4 +66,37 @@ body {
 .sub-nav .nav-link.active {
     color: #007bff;
     border-bottom: 2px solid #007bff;
+}
+/* Ajoutez ces styles à votre fichier CSS existant */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* Styles spécifiques pour la page experience.html */
+body.experience-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-page .container {
+    flex: 1 0 auto;
+}
+
+.experience-page footer {
+    margin-top: auto;
 }
