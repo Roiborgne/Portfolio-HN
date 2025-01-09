@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - BTS SIO 2ème année</title>
+    <link href="https://bootswatch.com/5/quartz/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="portfolioMain.html">Mon Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="documentsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Documents
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="documentsDropdown">
+                        <li><a class="dropdown-item text-dark" href="CV.html">CV</a></li>
+                        <li><a class="dropdown-item text-dark" href="certif.html">Certification MOOCs</a></li>
+                        <li><a class="dropdown-item text-dark" href="#certifAutre.html">Autres Certifications (à venir)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="projetsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projets
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="projetsDropdown">
+                        <li><a class="dropdown-item text-dark" href="projets.html">Projets</a></li>
+                        <li><a class="dropdown-item text-dark" href="Veille.html">Veilles Technologiques</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="experiencesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Expériences
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="experiencesDropdown">
+                        <li><a class="dropdown-item text-dark" href="experience.html">Agent de Service Hospitalier</a></li>
+                        <li><a class="dropdown-item text-dark" href="experience.html">Rippeur</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="passion.html">Passions</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container my-4">
+    <h1 class="text-center text-white mb-3 fade-in-up">Mes Projets</h1>
+
+    <div class="card">
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide text-center my-2">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="documents/cinemaAcc.png" height="790" width="1121"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="documents/cinemaListe.png" height="792" width="1120"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="documents/cinemaDetail.png" height="790" width="1122"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="documents/inscription.png" height="793" width="1122"/>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="card-footer">
+            <p class="mt-1 col-12 card-text text-white fs-4 text-center"> Site qui reprend les bases d'une médiathèque </p>
+            <p class="text-dark">Avec l'utilisation de PHP et d'HTML pour des requêtes parametrés et un lien avec une base de donnée (utilisation de requête SQL)</p>
+            <p class="text-dark">Possiblité d'inscription / connexion et détails personnalisés pour chaque film</p>
+        </div>
+    </div>
+</div>
+
+
+    <footer class="bg-dark py-1 mt-3 text-center">
+        <div>
+            <h4 class="text-white">contact</h4>
+            <h4>
+                <a class="text-decoration-none text-light me-3" href="https://www.facebook.com/nolan hamilcaro" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="text-decoration-none text-light" href="https://www.instagram.com/x.roi_borgne.x/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </h4>
+        </div>
+
+
+
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="portfolioMain.html#documents">Document</a></li>
+            <li class="list-inline-item"><a href="portfolioMain.html#projets">Projets</a></li>
+            <li class="list-inline-item"><a href="portfolioMain.html#experiences">Expériences</a></li>
+            <li class="list-inline-item"><a href="portfolioMain.html#passions">Passions</a></li>
+        </ul>
+        <div class="text-center text-white">
+            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
