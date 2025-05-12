@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Nolan Hamilcaro</title>
+  <title>Mes certifications - BTS SIO 2ème année</title>
   <link href="https://bootswatch.com/5/quartz/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="css.css">
+  <style>
+  </style>
 </head>
 
 <body>
@@ -24,7 +27,7 @@
           <ul class="dropdown-menu" aria-labelledby="documentsDropdown">
             <li><a class="dropdown-item text-secondary" href="CV.html">CV</a></li>
             <li><a class="dropdown-item text-secondary" href="certif.html">Certification MOOCs</a></li>
-            <li><a class="dropdown-item text-secondary" href="#certifAutre.html">Autres Certifications (à venir)</a></li>
+            <li><a class="dropdown-item text-secondary" href="certifAutre.html">Autres Certifications </a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -47,16 +50,29 @@
   </div>
 </nav>
 
-<div class="row justify-content-evenly">
-  <div class="col col-2">
-    <img class="img-fluid" src="documents/Pix_logo.svg.png" alt="Pix Logo">
-    <p>A venir</p>
-  </div>
-  <div class="col col-2">
-    <img alt="Ecrisplus Logo" class="img-fluid " src="documents/logoEcriplus.png" style="height: 119px; width: 145px">
-    <p>A venir</p>
-  </div>
-</div>
+
+<div class="container mt-5 text-center">
+  <h1 class="text-center text-white mb-5 fade-in-up" style="max-height: 800px">Certification Pix</h1>
+  <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner align-items-center">
+      <div class="carousel-item active">
+        <img src="documents/certif_pix.png" style="max-width: 792px; max-height: 500px"/>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div></div>
+
+
 
 <footer class="bg-dark py-1 mt-5 text-center">
   <div>
